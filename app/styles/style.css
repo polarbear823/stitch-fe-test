@@ -1,0 +1,44 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  color: black;
+  background: white;
+  font-family: 'HelveticaNeue-Light', Helvetica, Arial, Sans-Serif;
+  min-height: 700px;
+  height: 100%;
+}
+body .app-container {
+  height: 100%;
+}
+body .app-container .list {
+  background: #001E3B;
+  color: white;
+  height: 100%;
+}
+body .app-container .list .product-title {
+  display: inline-block;
+}
+body .app-container .list li span {
+  float: right;
+  color: red;
+}
+body .app-container .detail-view {
+  height: 60px;
+  margin: 0px;
+  padding: 0px;
+}
+body .app-container .detail-view .top-side-menu {
+  height: 100%;
+  background: #001E3B;
+}
+body .app-container .detail-view .top-side-menu button {
+  float: right;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+body .app-container .detail-view .add-new {
+  margin-left: 40px;
+}
+body .app-container input {
+  color: black;
+}
